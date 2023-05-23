@@ -1,6 +1,7 @@
 <template>
     <div>
         <el-button>Default</el-button>
+        <lwq-icon-share  />
     </div>
 </template>
 <script lang="ts" setup>
