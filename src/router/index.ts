@@ -1,6 +1,7 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Container from '../components/container/src/index.vue'
+import ChooseIcon from '../views/chooseIcon/index.vue'
 
 const routes: RouteRecordRaw[] = [
     {
@@ -10,6 +11,10 @@ const routes: RouteRecordRaw[] = [
             {
                 path: '/',
                 component: Home
+            },
+            {
+                path: 'chooseIcon',
+                component: ChooseIcon
             }
         ]
     },

@@ -25,4 +25,7 @@
 	.el.header {
 		padding: 0;
 	}
+	.lwq-container {
+		height: 100%;
+	}
 </style>
